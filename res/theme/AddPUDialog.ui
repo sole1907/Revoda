@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Dialog" name="AddPUDialog" cloudDestinationProperty="MediaOptions" uiid="Form" layout="BoxLayout" boxLayoutAxis="Y" title="Add PU" dialogUIID="Form" >
+  <component type="Label" name="Label" cloudDestinationProperty="Label" text="Enter your PU number" >
+  </component>
+  <component type="Container" name="Container5" cloudDestinationProperty="Container5" uiid="Container" layout="TableLayout" tableLayoutRows="1" tableLayoutColumns="4" >
+    <component type="TextField" name="pucCode1" cloudBoundProperty="text" cloudDestinationProperty="pucCode1" nextFocusRight="pucCode2" uiid="TextField" text="" constraint="2" maxSize="2" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="22" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="TextField" name="pucCode2" cloudBoundProperty="text" cloudDestinationProperty="surname" nextFocusRight="pucCode3" uiid="TextField" text="" constraint="2" maxSize="2" columns="20" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="22" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="TextField" name="pucCode3" cloudBoundProperty="text" cloudDestinationProperty="surname" nextFocusRight="pucCode4" uiid="TextField" text="" constraint="2" maxSize="2" columns="20" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="22" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="TextField" name="pucCode4" cloudBoundProperty="text" cloudDestinationProperty="surname" uiid="TextField" text="" constraint="2" maxSize="3" columns="30" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="34" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+  </component>
+  <component type="Label" name="Label21" cloudDestinationProperty="Label" uiid="SmallLabel" text="It can be found at: Top left of PVC; top right of TVC" >
+  </component>
+  <component type="Container" name="Container9" cloudDestinationProperty="Container9" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="0" >
+    <component type="Button" name="addPUButton" cloudDestinationProperty="Button" text="ADD PU" >
+    </component>
+  </component>
+</component>

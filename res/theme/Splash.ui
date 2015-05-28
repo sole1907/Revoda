@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Splash" cloudDestinationProperty="Splash" scrollVisible="false" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="true" title="" >
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" uiid="CentralContainer" scrollableY="true" layout="TableLayout" tableLayoutRows="3" tableLayoutColumns="1" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="NoBorderLabel" text="" icon="rev-splash.fw.png" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="4" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="TextArea" name="sloganTextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="SloganContainer" focusable="false" text="_" editable="false" columns="50" rows="4" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="100" align="4" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="CentralContainer" layout="BorderLayout" borderLayoutAbsoluteCenter="true" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+        <layoutConstraint value="Center" />
+        <component type="Label" name="Label11" cloudDestinationProperty="Label1" uiid="NoBorderLabel" text="" icon="rev-transparent-ballot-box.fw.png" >
+        </component>
+      </component>
+      <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BoxLayout" boxLayoutAxis="Y" >
+        <layoutConstraint value="South" />
+        <component type="Container" name="Container4" cloudDestinationProperty="Container4" layout="BoxLayout" boxLayoutAxis="Y" >
+          <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="FooterLabel" text="" >
+          </component>
+          <component type="Container" name="Container5" cloudDestinationProperty="Container5" scrollVisible="true" layout="TableLayout" tableLayoutRows="1" tableLayoutColumns="3" >
+            <component type="Button" name="Button" cloudDestinationProperty="Button" commandName="SIGN IN" commandId="3" commandAction="SignIn" commandBack="false" uiid="NoStyleButton" focusable="false" enabled="false" text="SIGN IN" gap="0" >
+              <layoutConstraint row="-1" column="-1" height="-1" width="46" align="4" spanHorizontal="1" valign="-1" spanVertical="1" />
+              <custom name="maskName" type="java.lang.String" value="" />
+            </component>
+            <component type="Label" name="Label2" cloudDestinationProperty="Label2" uiid="CentralContainer" text="" icon="rev-footer-divider.fw.png" gap="0" verticalAlignment="0" >
+              <layoutConstraint row="-1" column="-1" height="-1" width="8" align="4" spanHorizontal="1" valign="0" spanVertical="1" />
+              <custom name="maskName" type="java.lang.String" value="" />
+            </component>
+            <component type="Button" name="Button1" cloudDestinationProperty="Button1" commandName="REGISTER" commandId="4" commandAction="Register" commandBack="false" uiid="NoStyleButton" text="REGISTER" gap="0" >
+              <layoutConstraint row="-1" column="-1" height="-1" width="46" align="4" spanHorizontal="1" valign="-1" spanVertical="1" />
+              <custom name="maskName" type="java.lang.String" value="" />
+            </component>
+          </component>
+        </component>
+      </component>
+    </component>
+  </component>
+</component>

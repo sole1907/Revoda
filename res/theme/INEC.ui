@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="INEC" cloudDestinationProperty="PoliceInfo" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="INEC : 0700-CALL-INEC (0700-2255-4632)" >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" scrollVisible="false" scrollableY="true" layout="TableLayout" tableLayoutRows="6" tableLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="TextFieldMB" text="Airtel" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="30" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="09025038466, 07086945927, 08120183063" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="70" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label" uiid="TextFieldMB" text="Etisalat" >
+    </component>
+    <component type="TextArea" name="TextArea1" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="09025038466, 07086945927, 08120183063" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label" uiid="TextFieldMB" text="GLO" >
+    </component>
+    <component type="TextArea" name="TextArea2" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="09050858629, 09050858675, 09050858649" >
+    </component>
+    <component type="Label" name="Label11" cloudDestinationProperty="Label" uiid="TextFieldMB" text="MTN" >
+    </component>
+    <component type="TextArea" name="TextArea11" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="07062896047, 08105119010, 08146697603" >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label" uiid="TextFieldMB" text="SMS Only" >
+    </component>
+    <component type="TextArea" name="TextArea3" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="07032492303,  08101774434" >
+    </component>
+    <component type="Label" name="Label12" cloudDestinationProperty="Label" uiid="TextFieldMB" text="Email" >
+    </component>
+    <component type="TextArea" name="TextArea112" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="inec@yahoo.com, inec@gmail.com,inec@hotmail.com, inec@nigeria.org " >
+    </component>
+  </component>
+</component>

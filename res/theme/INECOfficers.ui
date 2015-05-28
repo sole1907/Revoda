@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="INECOfficers" cloudDestinationProperty="PoliceInfo" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="INEC Officers" >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" scrollVisible="false" scrollableY="true" layout="TableLayout" tableLayoutRows="37" tableLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ABIA" >
+    </component>
+    <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Selina Omagha Oko; selina-oko@yahoo.com; UCDA Road, Opposite Abia State Secretariat, P.M.B. 7223, Umuahia " >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ADAMAWA" >
+    </component>
+    <component type="TextArea" name="TextArea1" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Baba Abba Yusuf; babaabbayusssuf@yahoo.com; No 33, Galadima Aminu Way, Adjacent NNPC Mega filling station, Jimeta, Yola " >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label" uiid="TextFieldMB" text="AKWA IBOM" >
+    </component>
+    <component type="TextArea" name="TextArea2" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Austin Okojie; ehizebata@yahoo.com; Plot 4/5 Udo Udoma Avenue P.M.B. 1116, Uyo " >
+    </component>
+    <component type="Label" name="Label11" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ANAMBRA" >
+    </component>
+    <component type="TextArea" name="TextArea11" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Edwin Offor Nwatarali; mwtri@yahoo.com; 080 33096613, 08033241330; House Of Assembly Road, Off Aroma Junction, Enugu-Onitsha Express Way, Akwa " >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BAUCHI" >
+    </component>
+    <component type="TextArea" name="TextArea3" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Tukur Sa'ad; tukursaad@yahoo.com; High Court Close, Off Ahmadu Bello Way, Bauchi " >
+    </component>
+    <component type="Label" name="Label12" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BAYELSA" >
+    </component>
+    <component type="TextArea" name="TextArea12" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Barito Lenusikpugi Kphagih" >
+    </component>
+    <component type="Label" name="Label4" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BENUE" >
+    </component>
+    <component type="TextArea" name="TextArea4" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Istifanus Ishaku Defwang; No. 8 Jonah Jang Crescent, Opposite Federal Secretariat, Makurdi." >
+    </component>
+    <component type="Label" name="Label13" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BORNO" >
+    </component>
+    <component type="TextArea" name="TextArea13" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Samuel Madaki; samuelmadaki@yahoo.com; Airport Road, P.M.B. 1645, Maiduguri, Borno State " >
+    </component>
+    <component type="Label" name="Label5" cloudDestinationProperty="Label" uiid="TextFieldMB" text="CROSS RIVER" >
+    </component>
+    <component type="TextArea" name="TextArea5" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Sylvester Okey Ezeani; okeyezeanjanambra@yahoo.com; No. 81 Murtula mohammed Highway, Calabar " >
+    </component>
+    <component type="Label" name="Label14" cloudDestinationProperty="Label" uiid="TextFieldMB" text="DELTA" >
+    </component>
+    <component type="TextArea" name="TextArea14" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Aniedi Ikoiwak; aniediikoiwak@yahoo.com; NTA Road, Off Okpanam Road, Asaba " >
+    </component>
+    <component type="Label" name="Label7" cloudDestinationProperty="Label" uiid="TextFieldMB" text="EBONYI" >
+    </component>
+    <component type="TextArea" name="TextArea6" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Lawrence Azubuike; iazubuike@hotmail.co; No. 5 Town Planning Road, Abakaliki, Ebonyi State " >
+    </component>
+    <component type="Label" name="Label15" cloudDestinationProperty="Label" uiid="TextFieldMB" text="EDO" >
+    </component>
+    <component type="TextArea" name="TextArea15" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Mike Igini; advocatemikeigini@yahoo.com; No.3 Benin-Auchi Road, Ikpoba Hill, Benin City " >
+    </component>
+    <component type="Label" name="Label8" cloudDestinationProperty="Label" uiid="TextFieldMB" text="EKITI" >
+    </component>
+    <component type="TextArea" name="TextArea7" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Sam Olgbadebo Olumekun; olumekunsam@yahoo.com; INEC HQ, GRA Extension, New Iyin Road, P.M.B. 5324, Ado Ekiti " >
+    </component>
+    <component type="Label" name="Label16" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ENUGU" >
+    </component>
+    <component type="TextArea" name="TextArea16" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="C. E. Onukaogu; conukaogu@yahoo.com; 08034001141; No.5 Auhi Street, Independence Layout, Enugu " >
+    </component>
+    <component type="Label" name="Label9" cloudDestinationProperty="Label" uiid="TextFieldMB" text="FCT (ABUJA)" >
+    </component>
+    <component type="TextArea" name="TextArea8" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Jacob Shekwonudu Jatau; jacobjatau@yahoo.com, jacjatau@yahoo.co.uk'  No.3 Olusegun Obasanjo Way, Area 10 Garki, Abuja " >
+    </component>
+    <component type="Label" name="Label17" cloudDestinationProperty="Label" uiid="TextFieldMB" text="GOMBE" >
+    </component>
+    <component type="TextArea" name="TextArea17" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Kassim Gana Geidam; rightchambers@yahoo.com; Along Bauchi Road, behind Total Filling Station, P.M.B. 50, Gombe State " >
+    </component>
+    <component type="Label" name="Label10" cloudDestinationProperty="Label" uiid="TextFieldMB" text="IMO" >
+    </component>
+    <component type="TextArea" name="TextArea9" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Gabriel Ada; ogbuduada@yahoo.com; Plot 1002 Port-Harcourt Road, Opposite Imo State Secretariat, Owerri " >
+    </component>
+    <component type="Label" name="Label18" cloudDestinationProperty="Label" uiid="TextFieldMB" text="JIGAWA" >
+    </component>
+    <component type="TextArea" name="TextArea18" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Haliru A. Tambawal; haliru2@yahoo.com; INEC Link Street, Off Sani Abacha Way, Dutse, Jigawa " >
+    </component>
+    <component type="Label" name="Label19" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KADUNA" >
+    </component>
+    <component type="TextArea" name="TextArea10" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Hussaini Ahmed Mahuta; hamahuta@yahoo.com; No.109, Isa Kaita Road, P.M.B. 2322, Ungwar Rimi, Kaduna " >
+    </component>
+    <component type="Label" name="Label110" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KANO" >
+    </component>
+    <component type="TextArea" name="TextArea19" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Minkaila Abdulahi; minkaila.abdullahi@yahoo.com; No. 1 Pilgrim&#x2019;s Camp Way, Opposite Hajj Camp, P.M.B 3435, Kano " >
+    </component>
+    <component type="Label" name="Label20" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KATSINA" >
+    </component>
+    <component type="TextArea" name="TextArea20" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Ibrahim Bagobiri Marafa; alhjiibrahimbagobiri@yahoo.com; Daura Road, Behind Kupda Kastina " >
+    </component>
+    <component type="Label" name="Label111" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KEBBI" >
+    </component>
+    <component type="TextArea" name="TextArea110" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Jibrin Ibrahim Zarewa; jizarewa@gmail.com; Olusegun Obasanjo Avenue, Aliero Quarters, P.M.B. 1038 Birnin Kebbi " >
+    </component>
+    <component type="Label" name="Label21" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KOGI" >
+    </component>
+    <component type="TextArea" name="TextArea21" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Hussaini Halilu Pai; hussainihalilu@yahoo.com; 08033139472; Along Marine Road, Lokoja P.M.B. 1034 " >
+    </component>
+    <component type="Label" name="Label112" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KWARA" >
+    </component>
+    <component type="TextArea" name="TextArea111" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Emmanuel Onucheyo; emmacheyo@yahoo.com; Western Reservoir Road, Yebumot Hotel Area, Ilorin " >
+    </component>
+    <component type="Label" name="Label22" cloudDestinationProperty="Label" uiid="TextFieldMB" text="LAGOS" >
+    </component>
+    <component type="TextArea" name="TextArea22" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Akin Orebiyi; akinorebiyi@yahoo.com; No. 6 Birrel Avenue, Sabo, Yaba, Lagos " >
+    </component>
+    <component type="Label" name="Label113" cloudDestinationProperty="Label" uiid="TextFieldMB" text="NASSARAWA" >
+    </component>
+    <component type="TextArea" name="TextArea112" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Abdullahi Umar Danyaya; audanyaya@yahoo.com; Kurikyo Road, Off Sani Abacha Way (Jos Road) Lafia, P.M.B. 039, Lafia " >
+    </component>
+    <component type="Label" name="Label23" cloudDestinationProperty="Label" uiid="TextFieldMB" text="NIGER" >
+    </component>
+    <component type="TextArea" name="TextArea23" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Nasir Ayilara; nasir-ayilara@yahoo.com; David Mark Road, Tunga, Minna, P.M.B. 84 " >
+    </component>
+    <component type="Label" name="Label114" cloudDestinationProperty="Label" uiid="TextFieldMB" text="OGUN" >
+    </component>
+    <component type="TextArea" name="TextArea113" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Timothy A. Ibitoye; ibitoyeademola2010@yahoo.com; Opposite Olusegun Obasanjo Library, Magbon, Abeokuta " >
+    </component>
+    <component type="Label" name="Label24" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ONDO" >
+    </component>
+    <component type="TextArea" name="TextArea24" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Segun Agbaje; olusegunagbaje@rocketmail.com; No.12, Ola Akadiri Street, Algbaka Quarters, Akure, Ondo State " >
+    </component>
+    <component type="Label" name="Label115" cloudDestinationProperty="Label" uiid="TextFieldMB" text="OSUN" >
+    </component>
+    <component type="TextArea" name="TextArea114" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Adekunle L. Ogunmola; ogunmolakunle@yahoo.com; KM 4. Gbongan Road, Abere, Osogbo, P.M.B. 4344 Abere " >
+    </component>
+    <component type="Label" name="Label25" cloudDestinationProperty="Label" uiid="TextFieldMB" text="OYO" >
+    </component>
+    <component type="TextArea" name="TextArea25" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Rufus O. Akeju; rufusakeju@yahoo.com; Parliament Road, P.M.B. 034, Agodi Gate Office, Ibadan " >
+    </component>
+    <component type="Label" name="Label116" cloudDestinationProperty="Label" uiid="TextFieldMB" text="PLATEAU" >
+    </component>
+    <component type="TextArea" name="TextArea115" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Kwanga Godwin Mbatsavbee; gkwanga@yahoo.com; Miango Road, P.M.B 2739, Jos    " >
+    </component>
+    <component type="Label" name="Label26" cloudDestinationProperty="Label" uiid="TextFieldMB" text="RIVERS" >
+    </component>
+    <component type="TextArea" name="TextArea26" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Gesila Khan; gesilakhan@yahoo.com;  Plot 236, Aba Road, Port-Harcourt. " >
+    </component>
+    <component type="Label" name="Label117" cloudDestinationProperty="Label" uiid="TextFieldMB" text="SOKOTO" >
+    </component>
+    <component type="TextArea" name="TextArea116" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Sadiq Abubakar Musa; sadiqmus@yahoo.com; No.3 Tangaza Road, Opposite Police HQ, Low Cost, Sokoto. " >
+    </component>
+    <component type="Label" name="Label27" cloudDestinationProperty="Label" uiid="TextFieldMB" text="TARABA" >
+    </component>
+    <component type="TextArea" name="TextArea27" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Ahmed Makama; makamaahmed@yahoo.com; Wuro Sembe Road, P.M.B.1046, Jalingo " >
+    </component>
+    <component type="Label" name="Label118" cloudDestinationProperty="Label" uiid="TextFieldMB" text="YOBE" >
+    </component>
+    <component type="TextArea" name="TextArea117" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Habu Hinna Zarma; mrhabuzarma@yahoo.com; KM 6 Kashim Ibrahim Way, Damaturu " >
+    </component>
+    <component type="Label" name="Label28" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ZAMFARA" >
+    </component>
+    <component type="TextArea" name="TextArea28" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Abubakar Umar Garba Wara; auwara@yahoo.com; Along Obasanjo Drive, Off Bye-Pass Road, P.M.B 01002, Gasau. " >
+    </component>
+  </component>
+</component>

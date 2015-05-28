@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Incidents" cloudDestinationProperty="Incidents" scrollVisible="true" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="RevodaContainer" scrollVisible="false" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+      <component type="ComboBox" name="pucCombo" cloudDestinationProperty="pucCombo" uiid="TextField" >
+        <layoutConstraint value="Center" />
+      </component>
+      <component type="Button" name="addIPUButton" cloudDestinationProperty="Button" uiid="Button" text="Add PU" gap="0" >
+        <layoutConstraint value="East" />
+      </component>
+    </component>
+    <component type="ComboBox" name="incidentTypeCombo" cloudDestinationProperty="ComboBox" uiid="TextField" scrollVisible="true" >
+      <stringItem value="Select Incident Type" />
+      <stringItem value="Violence" />
+      <stringItem value="Unregistered Voters Voting" />
+      <stringItem value="Underage Voters Voting" />
+      <stringItem value="Fraud/Collusion" />
+      <stringItem value="Ballot Box Snatching" />
+      <stringItem value="Ballot Box Stuffing" />
+      <stringItem value="Other" />
+    </component>
+    <component type="ComboBox" name="electionTypeCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Select Election Type" />
+      <stringItem value="President" />
+      <stringItem value="Governor" />
+      <stringItem value="Senator" />
+      <stringItem value="Representative" />
+      <stringItem value="State Rep" />
+      <stringItem value="Local Govt. Chair." />
+      <stringItem value="Local Govt. Councilor" />
+    </component>
+    <component type="Button" name="attachMediaButton" cloudDestinationProperty="Button" commandName="Attach Image/Video" commandId="2" commandAction="MediaOptions" commandBack="false" uiid="SmallerButton" text="Attach Image/Video" >
+    </component>
+    <component type="TextArea" name="comments" cloudBoundProperty="text" cloudDestinationProperty="comments" uiid="TextField" text="" hint="Comments" rows="5" >
+    </component>
+    <component type="Container" name="Container9" cloudDestinationProperty="Container9" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+      <component type="Button" name="submitButton" cloudDestinationProperty="Button" uiid="RMarginButton" text="SEND - INTERNET" >
+      </component>
+      <component type="Button" name="submitButtonSms" cloudDestinationProperty="Button" uiid="LMarginButton" text="SEND - SMS" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="Incident Report" >
+    </component>
+  </component>
+</component>

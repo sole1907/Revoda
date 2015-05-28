@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Info" cloudDestinationProperty="Info" scrollableY="false" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="Info Center" >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" scrollVisible="false" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="MultiButton" name="MultiButton" cloudDestinationProperty="MultiButton" commandName="" commandId="10" commandAction="PoliceInfo" commandBack="false" uiid="TextFieldMB" >
+      <custom name="line1" type="java.lang.String" value="Police Info" />
+      <custom name="line2" type="java.lang.String" value="Nigerian Police Contact information" />
+    </component>
+    <component type="MultiButton" name="MultiButton1" cloudDestinationProperty="MultiButton1" commandName="" commandId="13" commandAction="INECOfficers" commandBack="false" uiid="TextFieldMB" >
+      <custom name="line1" type="java.lang.String" value="INEC Officers Info" />
+      <custom name="line2" type="java.lang.String" value="INEC Officers Contact Information" />
+    </component>
+    <component type="MultiButton" name="MultiButton2" cloudDestinationProperty="MultiButton2" commandName="" commandId="12" commandAction="INEC" commandBack="false" uiid="TextFieldMB" >
+      <custom name="line1" type="java.lang.String" value="INEC Information" />
+      <custom name="line2" type="java.lang.String" value="Information on INEC" />
+    </component>
+    <component type="MultiButton" name="MultiButton3" cloudDestinationProperty="MultiButton3" commandName="" commandId="11" commandAction="PartyAcronyms" commandBack="false" uiid="TextFieldMB" >
+      <custom name="line1" type="java.lang.String" value="Party Acronyms" />
+      <custom name="line2" type="java.lang.String" value="Full definition of Party Acronyms" />
+    </component>
+  </component>
+</component>

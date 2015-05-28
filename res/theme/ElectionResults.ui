@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ElectionResults" cloudDestinationProperty="ElectionResults" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="RevodaContainer" scrollVisible="false" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container3" cloudDestinationProperty="Container3" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+      <component type="ComboBox" name="electPucCombo" cloudDestinationProperty="pucCombo" uiid="TextField" >
+        <layoutConstraint value="Center" />
+      </component>
+      <component type="Button" name="addRPUButton" cloudDestinationProperty="Button" uiid="Button" text="Add PU" gap="0" >
+        <layoutConstraint value="East" />
+      </component>
+    </component>
+    <component type="ComboBox" name="electTypeCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Select Election Type" />
+      <stringItem value="President" />
+      <stringItem value="Governor" />
+      <stringItem value="Senator" />
+      <stringItem value="Representative" />
+      <stringItem value="State Rep" />
+      <stringItem value="Local Govt. Chair" />
+      <stringItem value="Local Govt. Councilor" />
+    </component>
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="TableLayout" tableLayoutRows="1" tableLayoutColumns="2" >
+      <component type="TextField" name="apc" cloudBoundProperty="text" cloudDestinationProperty="apc" text="" constraint="2" hint="APC results" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="50" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="pdp" cloudBoundProperty="text" cloudDestinationProperty="pdp" text="" constraint="2" hint="PDP results" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="TableLayout" tableLayoutRows="8" tableLayoutColumns="3" >
+      <component type="TextField" name="a" cloudBoundProperty="text" cloudDestinationProperty="TextField12" text="" constraint="2" hint="A" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="aa" cloudBoundProperty="text" cloudDestinationProperty="TextField23" text="" constraint="2" hint="AA" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="acd" cloudBoundProperty="text" cloudDestinationProperty="TextField16" text="" constraint="2" hint="ACD" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="acpn" cloudBoundProperty="text" cloudDestinationProperty="TextField8" text="" constraint="2" hint="ACPN" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="ad" cloudBoundProperty="text" cloudDestinationProperty="TextField21" text="" constraint="2" hint="AD" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="adc" cloudBoundProperty="text" cloudDestinationProperty="TextField3" text="" constraint="2" hint="ADC" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="apa" cloudBoundProperty="text" cloudDestinationProperty="TextField6" text="" constraint="2" hint="APA" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="apga" cloudBoundProperty="text" cloudDestinationProperty="apga" text="" constraint="2" hint="APGA" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="cpp" cloudBoundProperty="text" cloudDestinationProperty="TextField11" text="" constraint="2" hint="CPP" >
+      </component>
+      <component type="TextField" name="dpp" cloudBoundProperty="text" cloudDestinationProperty="TextField10" text="" constraint="2" hint="DPP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="id" cloudBoundProperty="text" cloudDestinationProperty="TextField5" text="" constraint="2" hint="ID" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="kp" cloudBoundProperty="text" cloudDestinationProperty="TextField15" text="" constraint="2" hint="KP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="lp" cloudBoundProperty="text" cloudDestinationProperty="lp" text="" constraint="2" hint="LP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="mppp" cloudBoundProperty="text" cloudDestinationProperty="TextField18" text="" constraint="2" hint="MPPP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="ncp" cloudBoundProperty="text" cloudDestinationProperty="TextField2" text="" constraint="2" hint="NCP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="nnpp" cloudBoundProperty="text" cloudDestinationProperty="TextField13" text="" constraint="2" hint="NNPP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="pdc" cloudBoundProperty="text" cloudDestinationProperty="TextField7" text="" constraint="2" hint="PDC" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="pdm" cloudBoundProperty="text" cloudDestinationProperty="TextField4" text="" constraint="2" hint="PDM" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="ppa" cloudBoundProperty="text" cloudDestinationProperty="TextField22" text="" constraint="2" hint="PPA" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="sdp" cloudBoundProperty="text" cloudDestinationProperty="TextField9" text="" constraint="2" hint="SDP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="udp" cloudBoundProperty="text" cloudDestinationProperty="TextField14" text="" constraint="2" hint="UDP" >
+      </component>
+      <component type="TextField" name="upn" cloudBoundProperty="text" cloudDestinationProperty="TextField20" text="" constraint="2" hint="UPN" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="upp" cloudBoundProperty="text" cloudDestinationProperty="TextField17" text="" constraint="2" hint="UPP" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="33" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+      <component type="TextField" name="ppn" cloudBoundProperty="text" cloudDestinationProperty="TextField19" text="" constraint="2" hint="PPN" >
+        <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+      </component>
+    </component>
+    <component type="TextArea" name="electComments" cloudBoundProperty="text" cloudDestinationProperty="comments" uiid="TextField" text="" hint="Comments" rows="5" >
+    </component>
+    <component type="Container" name="Container9" cloudDestinationProperty="Container9" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+      <component type="Button" name="electSubmitButton" cloudDestinationProperty="Button" uiid="RMarginButton" text="SEND - INTERNET" >
+      </component>
+      <component type="Button" name="electSubmitButtonSms" cloudDestinationProperty="Button" uiid="LMarginButton" text="SEND - SMS" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="Election Results" >
+    </component>
+  </component>
+</component>

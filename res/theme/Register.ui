@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Register" cloudDestinationProperty="Register" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="NoTitleContainer" scrollVisible="false" scrollableX="false" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" uiid="h1Label" text="CREATE YOUR ACCOUNT" >
+    </component>
+    <component type="TextField" name="fullName" cloudBoundProperty="text" cloudDestinationProperty="firstName" text="" hint="Your Name" >
+    </component>
+    <component type="TextField" name="phone" cloudBoundProperty="text" cloudDestinationProperty="firstName" text="" constraint="3" hint="Phone Number" >
+    </component>
+    <component type="Container" name="Container9" cloudDestinationProperty="Container9" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="0" >
+      <component type="Button" name="registerButton" cloudDestinationProperty="Button" text="REGISTER" >
+      </component>
+    </component>
+  </component>
+</component>

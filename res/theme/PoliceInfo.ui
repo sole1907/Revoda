@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="PoliceInfo" cloudDestinationProperty="PoliceInfo" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="Police Info" >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" scrollVisible="false" scrollableY="true" layout="TableLayout" tableLayoutRows="37" tableLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ABIA" >
+    </component>
+    <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08033361101, 08039148294, 08033476902, 08035415408, 08079210003, 08079210004, 08079210005" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ADAMAWA" >
+    </component>
+    <component type="TextArea" name="TextArea1" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08035049574, 08036245920, 08123143390, 08089671313, 08037460883" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label" uiid="TextFieldMB" text="AKWA IBOM" >
+    </component>
+    <component type="TextArea" name="TextArea2" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08036074860, 08078189839, 08039213071, 08020913810, 08037214448" >
+    </component>
+    <component type="Label" name="Label11" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ANAMBRA" >
+    </component>
+    <component type="TextArea" name="TextArea11" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08033101525, 07039194332, 08024922772, 08075390511, 08182951257" >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BAUCHI" >
+    </component>
+    <component type="TextArea" name="TextArea3" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08035849004, 08078118093, 07038057407, 08151849417, 08127162434, 08084763669, 08073794920" >
+    </component>
+    <component type="Label" name="Label12" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BAYELSA" >
+    </component>
+    <component type="TextArea" name="TextArea12" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08037994756, 07034578208, 08033027952" >
+    </component>
+    <component type="Label" name="Label4" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BENUE" >
+    </component>
+    <component type="TextArea" name="TextArea4" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08085176321, 08036288026, 08066006475, 08053039936, 07075390677, 08034819338" >
+    </component>
+    <component type="Label" name="Label13" cloudDestinationProperty="Label" uiid="TextFieldMB" text="BORNO" >
+    </component>
+    <component type="TextArea" name="TextArea13" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08034439878, 08068075581, 08036071667, 08123823322, 08125275700" >
+    </component>
+    <component type="Label" name="Label5" cloudDestinationProperty="Label" uiid="TextFieldMB" text="CROSS RIVER" >
+    </component>
+    <component type="TextArea" name="TextArea5" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08023609439, 08066664978, 08133568456, 07053355415, 08169949009" >
+    </component>
+    <component type="Label" name="Label14" cloudDestinationProperty="Label" uiid="TextFieldMB" text="DELTA" >
+    </component>
+    <component type="TextArea" name="TextArea14" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08125273232, 08036684974, 07032927000" >
+    </component>
+    <component type="Label" name="Label7" cloudDestinationProperty="Label" uiid="TextFieldMB" text="EBONYI" >
+    </component>
+    <component type="TextArea" name="TextArea6" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08037739134, 07064515001, 08125273721, 08084704673, 07035150909, 08084704673" >
+    </component>
+    <component type="Label" name="Label15" cloudDestinationProperty="Label" uiid="TextFieldMB" text="EDO" >
+    </component>
+    <component type="TextArea" name="TextArea15" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08056036741, 08033923425, 08137845777, 08037646272, 08077773721, 08067551618, 08028913040" >
+    </component>
+    <component type="Label" name="Label8" cloudDestinationProperty="Label" uiid="TextFieldMB" text="EKITI" >
+    </component>
+    <component type="TextArea" name="TextArea7" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08125275109, 08056022366, 08062335577, 07089310359, 08030696981" >
+    </component>
+    <component type="Label" name="Label16" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ENUGU" >
+    </component>
+    <component type="TextArea" name="TextArea16" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08038829086, 08123822894, 08032003702, 08075390883, 08086671202, 08038760514" >
+    </component>
+    <component type="Label" name="Label9" cloudDestinationProperty="Label" uiid="TextFieldMB" text="FCT (ABUJA)" >
+    </component>
+    <component type="TextArea" name="TextArea8" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="07066103196, 08133379980, 07057337653, 08061581938, 08032003913" >
+    </component>
+    <component type="Label" name="Label17" cloudDestinationProperty="Label" uiid="TextFieldMB" text="GOMBE" >
+    </component>
+    <component type="TextArea" name="TextArea17" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08075388884, 08150567771, 08151855014, 08035895153" >
+    </component>
+    <component type="Label" name="Label10" cloudDestinationProperty="Label" uiid="TextFieldMB" text="IMO" >
+    </component>
+    <component type="TextArea" name="TextArea9" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08063827970, 08034773600, 08037037283, 08033104650" >
+    </component>
+    <component type="Label" name="Label18" cloudDestinationProperty="Label" uiid="TextFieldMB" text="JIGAWA" >
+    </component>
+    <component type="TextArea" name="TextArea18" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08065670314, 08075391069, 07089846285, 08123821598, 08032464883" >
+    </component>
+    <component type="Label" name="Label19" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KADUNA" >
+    </component>
+    <component type="TextArea" name="TextArea10" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08037873378, 08123822284, 08037873378" >
+    </component>
+    <component type="Label" name="Label110" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KANO" >
+    </component>
+    <component type="TextArea" name="TextArea19" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08126654538, 08066471341, 08037241645, 08032419754, 08123821575" >
+    </component>
+    <component type="Label" name="Label20" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KATSINA" >
+    </component>
+    <component type="TextArea" name="TextArea20" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08064211500, 08075391255, 08075391250, 08069187788, 08075001766" >
+    </component>
+    <component type="Label" name="Label111" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KEBBI" >
+    </component>
+    <component type="TextArea" name="TextArea110" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08035783503, 08038797644, 08075391307, 08025808044" >
+    </component>
+    <component type="Label" name="Label21" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KOGI" >
+    </component>
+    <component type="TextArea" name="TextArea21" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08033784624, 08036695404, 08075391335, 07038329084, 08131300005" >
+    </component>
+    <component type="Label" name="Label112" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KWARA" >
+    </component>
+    <component type="TextArea" name="TextArea111" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08081763132, 08032365122, 07032069501, 08125275046, 08035902153" >
+    </component>
+    <component type="Label" name="Label22" cloudDestinationProperty="Label" uiid="TextFieldMB" text="LAGOS" >
+    </component>
+    <component type="TextArea" name="TextArea22" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08034752664, 08037765762, 08081765606, 08033355400, 07055462708, 08035963919" >
+    </component>
+    <component type="Label" name="Label113" cloudDestinationProperty="Label" uiid="TextFieldMB" text="NASSARAWA" >
+    </component>
+    <component type="TextArea" name="TextArea112" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08123821571, 07075391560, 08039648871" >
+    </component>
+    <component type="Label" name="Label23" cloudDestinationProperty="Label" uiid="TextFieldMB" text="NIGER" >
+    </component>
+    <component type="TextArea" name="TextArea23" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08038415623, 08125275061, 08081777498, 08127185198" >
+    </component>
+    <component type="Label" name="Label114" cloudDestinationProperty="Label" uiid="TextFieldMB" text="OGUN" >
+    </component>
+    <component type="TextArea" name="TextArea113" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08037168147, 08123822910, 08032136765, 08081770416" >
+    </component>
+    <component type="Label" name="Label24" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ONDO" >
+    </component>
+    <component type="TextArea" name="TextArea24" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08035289691, 07034313903, 08075391808, 08037018210" >
+    </component>
+    <component type="Label" name="Label115" cloudDestinationProperty="Label" uiid="TextFieldMB" text="OSUN" >
+    </component>
+    <component type="TextArea" name="TextArea114" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08035964938, 08035384448, 08075872433, 08039537995, 08123823981" >
+    </component>
+    <component type="Label" name="Label25" cloudDestinationProperty="Label" uiid="TextFieldMB" text="OYO" >
+    </component>
+    <component type="TextArea" name="TextArea25" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08036536581, 08081768614, 08150777888, 08033027978, 08085823778" >
+    </component>
+    <component type="Label" name="Label116" cloudDestinationProperty="Label" uiid="TextFieldMB" text="PLATEAU" >
+    </component>
+    <component type="TextArea" name="TextArea115" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08032924954, 08126375938, 08075391844, 08038907662, 08034745387" >
+    </component>
+    <component type="Label" name="Label26" cloudDestinationProperty="Label" uiid="TextFieldMB" text="RIVERS" >
+    </component>
+    <component type="TextArea" name="TextArea26" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08039642312, 08032003514, 08073777717, 08037147555" >
+    </component>
+    <component type="Label" name="Label117" cloudDestinationProperty="Label" uiid="TextFieldMB" text="SOKOTO" >
+    </component>
+    <component type="TextArea" name="TextArea116" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08062113178, 08065510954, 08182011800, 07068848035, 08075391943, 08037013366, 08085823457" >
+    </component>
+    <component type="Label" name="Label27" cloudDestinationProperty="Label" uiid="TextFieldMB" text="TARABA" >
+    </component>
+    <component type="TextArea" name="TextArea27" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08032559513, 08126282105, 08140089863, 08073260267, 08036000456" >
+    </component>
+    <component type="Label" name="Label118" cloudDestinationProperty="Label" uiid="TextFieldMB" text="YOBE" >
+    </component>
+    <component type="TextArea" name="TextArea117" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text=" 07039301585, 08035067570, 08036579389" >
+    </component>
+    <component type="Label" name="Label28" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ZAMFARA" >
+    </component>
+    <component type="TextArea" name="TextArea28" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="08036071667, 08075334472, 08106580123, 08036186543" >
+    </component>
+  </component>
+</component>

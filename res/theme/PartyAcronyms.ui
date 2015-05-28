@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="PartyAcronyms" cloudDestinationProperty="PoliceInfo" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="Party Acronyms" >
+    </component>
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" scrollVisible="false" scrollableY="true" layout="TableLayout" tableLayoutRows="26" tableLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="TextFieldMB" text="A" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="30" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="TextArea" name="TextArea" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Accord" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="70" align="-1" spanHorizontal="1" valign="-1" spanVertical="1" />
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label" uiid="TextFieldMB" text="AA" >
+    </component>
+    <component type="TextArea" name="TextArea1" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Action Alliance" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ACD" >
+    </component>
+    <component type="TextArea" name="TextArea2" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Advanced Congress of Democrats" >
+    </component>
+    <component type="Label" name="Label11" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ACPN" >
+    </component>
+    <component type="TextArea" name="TextArea11" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Allied Congress Party of Nigeria" >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label" uiid="TextFieldMB" text="AD" >
+    </component>
+    <component type="TextArea" name="TextArea3" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Alliance For Democracy" >
+    </component>
+    <component type="Label" name="Label12" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ADC" >
+    </component>
+    <component type="TextArea" name="TextArea12" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="African Democratic Congress" >
+    </component>
+    <component type="Label" name="Label4" cloudDestinationProperty="Label" uiid="TextFieldMB" text="APA" >
+    </component>
+    <component type="TextArea" name="TextArea4" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="African Peoples Alliance" >
+    </component>
+    <component type="Label" name="Label13" cloudDestinationProperty="Label" uiid="TextFieldMB" text="APC" >
+    </component>
+    <component type="TextArea" name="TextArea13" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="All Progressives Congress" >
+    </component>
+    <component type="Label" name="Label5" cloudDestinationProperty="Label" uiid="TextFieldMB" text="APGA" >
+    </component>
+    <component type="TextArea" name="TextArea5" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="All Progressives Grand Alliance" >
+    </component>
+    <component type="Label" name="Label14" cloudDestinationProperty="Label" uiid="TextFieldMB" text="CPP" >
+    </component>
+    <component type="TextArea" name="TextArea14" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Citizens Popular Party" >
+    </component>
+    <component type="Label" name="Label7" cloudDestinationProperty="Label" uiid="TextFieldMB" text="DPP" >
+    </component>
+    <component type="TextArea" name="TextArea6" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Democratic Peoples Party  " >
+    </component>
+    <component type="Label" name="Label15" cloudDestinationProperty="Label" uiid="TextFieldMB" text="ID" >
+    </component>
+    <component type="TextArea" name="TextArea15" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Independent Democrats" >
+    </component>
+    <component type="Label" name="Label8" cloudDestinationProperty="Label" uiid="TextFieldMB" text="KP" >
+    </component>
+    <component type="TextArea" name="TextArea7" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Kowa Party" >
+    </component>
+    <component type="Label" name="Label16" cloudDestinationProperty="Label" uiid="TextFieldMB" text="LP" >
+    </component>
+    <component type="TextArea" name="TextArea16" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Labour Party" >
+    </component>
+    <component type="Label" name="Label9" cloudDestinationProperty="Label" uiid="TextFieldMB" text="MPPP" >
+    </component>
+    <component type="TextArea" name="TextArea8" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Mega Progressive Peoples Party" >
+    </component>
+    <component type="Label" name="Label17" cloudDestinationProperty="Label" uiid="TextFieldMB" text="NCP" >
+    </component>
+    <component type="TextArea" name="TextArea17" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="National Conscience Party" >
+    </component>
+    <component type="Label" name="Label10" cloudDestinationProperty="Label" uiid="TextFieldMB" text="NNPP" >
+    </component>
+    <component type="TextArea" name="TextArea9" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="New Nigeria Peoples Party" >
+    </component>
+    <component type="Label" name="Label18" cloudDestinationProperty="Label" uiid="TextFieldMB" text="PDC" >
+    </component>
+    <component type="TextArea" name="TextArea18" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="People For Democratic Change" >
+    </component>
+    <component type="Label" name="Label19" cloudDestinationProperty="Label" uiid="TextFieldMB" text="PDM" >
+    </component>
+    <component type="TextArea" name="TextArea10" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Peoples Democratic Movement" >
+    </component>
+    <component type="Label" name="Label110" cloudDestinationProperty="Label" uiid="TextFieldMB" text="PDP" >
+    </component>
+    <component type="TextArea" name="TextArea19" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Peoples Democratic Party" >
+    </component>
+    <component type="Label" name="Label20" cloudDestinationProperty="Label" uiid="TextFieldMB" text="PPA" >
+    </component>
+    <component type="TextArea" name="TextArea20" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Progressive Peoples Alliance" >
+    </component>
+    <component type="Label" name="Label111" cloudDestinationProperty="Label" uiid="TextFieldMB" text="PPN" >
+    </component>
+    <component type="TextArea" name="TextArea110" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Peoples Party of Nigeria" >
+    </component>
+    <component type="Label" name="Label21" cloudDestinationProperty="Label" uiid="TextFieldMB" text="SDP" >
+    </component>
+    <component type="TextArea" name="TextArea21" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Social Democratic Party " >
+    </component>
+    <component type="Label" name="Label112" cloudDestinationProperty="Label" uiid="TextFieldMB" text="UDP" >
+    </component>
+    <component type="TextArea" name="TextArea111" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="United Democratic Party" >
+    </component>
+    <component type="Label" name="Label22" cloudDestinationProperty="Label" uiid="TextFieldMB" text="UPN" >
+    </component>
+    <component type="TextArea" name="TextArea22" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="Unity Party of Nigeria" >
+    </component>
+    <component type="Label" name="Label113" cloudDestinationProperty="Label" uiid="TextFieldMB" text="UPP" >
+    </component>
+    <component type="TextArea" name="TextArea112" cloudBoundProperty="text" cloudDestinationProperty="TextArea" uiid="TextFieldMB" enabled="false" text="United Progressive Party" >
+    </component>
+  </component>
+</component>

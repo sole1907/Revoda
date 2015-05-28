@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="ElectionMonitoring" cloudDestinationProperty="ElectionMonitoring" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="RevodaContainer" scrollVisible="false" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+      <component type="ComboBox" name="monPucCombo" cloudDestinationProperty="pucCombo" uiid="TextField" itemGap="0" >
+        <layoutConstraint value="Center" />
+      </component>
+      <component type="Button" name="addPUButton" cloudDestinationProperty="Button" uiid="Button" text="Add PU" gap="0" >
+        <layoutConstraint value="East" />
+      </component>
+    </component>
+    <component type="ComboBox" name="monTypeCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Select Election Type" />
+      <stringItem value="President" />
+      <stringItem value="Governor" />
+      <stringItem value="Senator" />
+      <stringItem value="Representative" />
+      <stringItem value="State Rep" />
+      <stringItem value="Local Govt. Chair." />
+      <stringItem value="Local Govt. Councilor" />
+    </component>
+    <component type="ComboBox" name="monAccreditationCombo" cloudDestinationProperty="occupation" uiid="TextField" hint="Accreditation Started?" >
+      <stringItem value="Accreditation Started?" />
+      <stringItem value="Yes" />
+      <stringItem value="No" />
+    </component>
+    <component type="ComboBox" name="monMaterialsCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Materials Available?" />
+      <stringItem value="Yes" />
+      <stringItem value="No" />
+    </component>
+    <component type="ComboBox" name="monVotingCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Voting Started?" />
+      <stringItem value="Yes" />
+      <stringItem value="No" />
+    </component>
+    <component type="ComboBox" name="monVoteCountedCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Voting Counted?" />
+      <stringItem value="Yes" />
+      <stringItem value="No" />
+    </component>
+    <component type="ComboBox" name="monResultCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Result Announced?" />
+      <stringItem value="Yes" />
+      <stringItem value="No" />
+    </component>
+    <component type="ComboBox" name="monSecurityCombo" cloudDestinationProperty="occupation" uiid="TextField" >
+      <stringItem value="Security Agents?" />
+      <stringItem value="None" />
+      <stringItem value="Helpful" />
+      <stringItem value="Biased" />
+    </component>
+    <component type="TextArea" name="monComments" cloudBoundProperty="text" cloudDestinationProperty="comments" uiid="TextField" text="" hint="Comments" rows="5" >
+    </component>
+    <component type="Container" name="Container9" cloudDestinationProperty="Container9" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+      <component type="Button" name="monSubmitButton" cloudDestinationProperty="Button" uiid="RMarginButton" text="SEND - INTERNET" >
+      </component>
+      <component type="Button" name="monSubmitButtonSms" cloudDestinationProperty="Button" uiid="LMarginButton" text="SEND - SMS" >
+      </component>
+    </component>
+  </component>
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="Election Monitoring" >
+      <layoutConstraint value="Center" />
+    </component>
+  </component>
+</component>

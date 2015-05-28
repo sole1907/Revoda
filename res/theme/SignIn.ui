@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="SignIn" cloudDestinationProperty="SignIn" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="NoTitleContainer" scrollVisible="false" scrollableY="true" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="h1Label" text="WELCOME BACK" >
+    </component>
+    <component type="TextField" name="phoneNumber" cloudBoundProperty="text" cloudDestinationProperty="firstName" text="" constraint="3" hint="Enter Phone Number" >
+    </component>
+    <component type="TextField" name="password" cloudBoundProperty="text" cloudDestinationProperty="surname" text="" constraint="65536" hint="Password" >
+    </component>
+    <component type="Button" name="signInBtn" cloudDestinationProperty="submit" text="SIGN IN" >
+    </component>
+  </component>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Dialog" name="MediaOptions" cloudDestinationProperty="MediaOptions" layout="BoxLayout" boxLayoutAxis="Y" dialogUIID="TransparentDialog" >
+  <component type="List" name="attachMediaList" cloudDestinationProperty="List" uiid="List" itemGap="0" >
+    <stringItem value="Take new photo" />
+    <stringItem value="Select photo from device" />
+    <stringItem value="Record new video" />
+  </component>
+</component>

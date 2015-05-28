@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="6" useXmlUI="false">
+    <ui name="AddPUDialog" />
+    <image name="ajax-loader.gif" type="multi"  />
+    <image name="background.fw.png" type="multi"  />
+    <image name="Button.borderBottom_1.png" type="multi"  />
+    <image name="Button.borderBottomL_1.png" type="multi"  />
+    <image name="Button.borderBottomR_1.png" type="multi"  />
+    <image name="Button.borderCenter_1.png" type="multi"  />
+    <image name="Button.borderLeft_1.png" type="multi"  />
+    <image name="Button.borderRight_1.png" type="multi"  />
+    <image name="Button.borderTop_1.png" type="multi"  />
+    <image name="Button.borderTopL_1.png" type="multi"  />
+    <image name="Button.borderTopR_1.png" type="multi"  />
+    <image name="Button.sel#borderBottom_1.png" type="multi"  />
+    <image name="Button.sel#borderBottomL_1.png" type="multi"  />
+    <image name="Button.sel#borderBottomR_1.png" type="multi"  />
+    <image name="Button.sel#borderCenter_1.png" type="multi"  />
+    <image name="Button.sel#borderLeft_1.png" type="multi"  />
+    <image name="Button.sel#borderRight_1.png" type="multi"  />
+    <image name="Button.sel#borderTop_1.png" type="multi"  />
+    <image name="Button.sel#borderTopL_1.png" type="multi"  />
+    <image name="Button.sel#borderTopR_1.png" type="multi"  />
+    <image name="Calque_3 2@2x.png" type="multi"  />
+    <image name="Calque_3 2@2x.png 1" type="multi"  />
+    <image name="dropdown.fw.png" type="multi"  />
+    <ui name="ElectionMonitoring" />
+    <ui name="ElectionResults" />
+    <ui name="Incidents" />
+    <ui name="INEC" />
+    <ui name="INECOfficers" />
+    <ui name="Info" />
+    <ui name="Main" />
+    <ui name="MediaOptions" />
+    <image name="noun_25089_cc@2x.png" type="multi"  />
+    <image name="noun_25089_cc@2x.png 1" type="multi"  />
+    <image name="noun_4270@2x.png" type="multi"  />
+    <image name="noun_4270@2x.png 1" type="multi"  />
+    <image name="noun_81482_cc@2x.png" type="multi"  />
+    <image name="noun_81482_cc@2x.png 1" type="multi"  />
+    <ui name="PartyAcronyms" />
+    <ui name="PoliceInfo" />
+    <image name="PUCTextField.sel#borderBottom_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderBottomL_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderBottomR_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderCenter_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderLeft_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderRight_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderTop_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderTopL_1.png" type="multi"  />
+    <image name="PUCTextField.sel#borderTopR_1.png" type="multi"  />
+    <ui name="Register" />
+    <image name="rev-background.fw.png" type="multi"  />
+    <image name="rev-dropdown.fw.png" type="multi"  />
+    <image name="rev-footer-divider.fw.png" type="multi"  />
+    <image name="rev-footer.fw.png" type="multi"  />
+    <image name="rev-splash.fw.png" type="multi"  />
+    <image name="rev-transparent-ballot-box.fw.png" type="multi"  />
+    <ui name="SignIn" />
+    <ui name="Splash" />
+    <image name="TextField.borderBottom_1.png" type="multi"  />
+    <image name="TextField.borderBottom_2.png" type="multi"  />
+    <image name="TextField.borderBottomL_1.png" type="multi"  />
+    <image name="TextField.borderBottomL_2.png" type="multi"  />
+    <image name="TextField.borderBottomR_1.png" type="multi"  />
+    <image name="TextField.borderBottomR_2.png" type="multi"  />
+    <image name="TextField.borderCenter_1.png" type="multi"  />
+    <image name="TextField.borderCenter_2.png" type="multi"  />
+    <image name="TextField.borderLeft_1.png" type="multi"  />
+    <image name="TextField.borderLeft_2.png" type="multi"  />
+    <image name="TextField.borderRight_1.png" type="multi"  />
+    <image name="TextField.borderRight_2.png" type="multi"  />
+    <image name="TextField.borderTop_1.png" type="multi"  />
+    <image name="TextField.borderTop_2.png" type="multi"  />
+    <image name="TextField.borderTopL_1.png" type="multi"  />
+    <image name="TextField.borderTopL_2.png" type="multi"  />
+    <image name="TextField.borderTopR_1.png" type="multi"  />
+    <image name="TextField.borderTopR_2.png" type="multi"  />
+    <image name="TextField.sel#borderBottom_3.png" type="multi"  />
+    <image name="TextField.sel#borderBottomL_3.png" type="multi"  />
+    <image name="TextField.sel#borderBottomR_3.png" type="multi"  />
+    <image name="TextField.sel#borderCenter_3.png" type="multi"  />
+    <image name="TextField.sel#borderLeft_3.png" type="multi"  />
+    <image name="TextField.sel#borderRight_3.png" type="multi"  />
+    <image name="TextField.sel#borderTop_3.png" type="multi"  />
+    <image name="TextField.sel#borderTopL_3.png" type="multi"  />
+    <image name="TextField.sel#borderTopR_3.png" type="multi"  />
+    <theme name="Theme">
+        <val key="@comboImage" value="rev-dropdown.fw.png" />
+        <val key="@infiniteImage" value="ajax-loader.gif" />
+        <val key="@otherPopupRendererBool" value="true" />
+        <val key="@rendererShowsNumbersBool" value="false" />
+        <val key="@textCmpVAlignInt" value="4" />
+        <val key="BigLabel.align" value="4" />
+        <val key="BigLabel.bgImage" value="rev-background.fw.png" />
+        <val key="BigLabel.bgType" value="1" />
+        <val key="BigLabel.fgColor" value="000000" />
+        <font key="BigLabel.font" type="system" face="0" style="0" size="16" />
+        <val key="BoldLabel.bgImage" value="background.fw.png" />
+        <val key="BoldLabel.bgType" value="1" />
+        <font key="BoldLabel.font" type="system" face="0" style="1" size="0" />
+        <val key="BoldLabel.margin" value="2,2,20,20" />
+        <val key="BoldLabel.padding" value="2,2,2,2" />
+        <val key="Button.align" value="4" />
+        <border key="Button.border" type="image" i1="Button.borderTop_1.png" i2="Button.borderBottom_1.png" i3="Button.borderLeft_1.png" i4="Button.borderRight_1.png" i5="Button.borderTopL_1.png" i6="Button.borderTopR_1.png" i7="Button.borderBottomL_1.png" i8="Button.borderBottomR_1.png" i9="Button.borderCenter_1.png" />
+        <val key="Button.fgColor" value="ffffff" />
+        <font key="Button.font" type="system" face="0" style="1" size="0" />
+        <val key="Button.margin" value="10,20,0,0" />
+        <border key="Button.press#border" type="image" i1="Button.sel#borderTop_1.png" i2="Button.sel#borderBottom_1.png" i3="Button.sel#borderLeft_1.png" i4="Button.sel#borderRight_1.png" i5="Button.sel#borderTopL_1.png" i6="Button.sel#borderTopR_1.png" i7="Button.sel#borderBottomL_1.png" i8="Button.sel#borderBottomR_1.png" i9="Button.sel#borderCenter_1.png" />
+        <val key="Button.press#derive" value="Button" />
+        <border key="Button.sel#border" type="image" i1="Button.sel#borderTop_1.png" i2="Button.sel#borderBottom_1.png" i3="Button.sel#borderLeft_1.png" i4="Button.sel#borderRight_1.png" i5="Button.sel#borderTopL_1.png" i6="Button.sel#borderTopR_1.png" i7="Button.sel#borderBottomL_1.png" i8="Button.sel#borderBottomR_1.png" i9="Button.sel#borderCenter_1.png" />
+        <val key="Button.sel#derive" value="Button" />
+        <val key="CentralContainer.align" value="4" />
+        <val key="CentralContainer.bgImage" value="rev-background.fw.png" />
+        <val key="CentralContainer.bgType" value="1" />
+        <border key="CentralContainer.border" type="empty" />
+        <val key="Dialog.align" value="4" />
+        <val key="DialogBody.align" value="4" />
+        <val key="DialogBody.bgImage" value="rev-background.fw.png" />
+        <val key="DialogBody.bgType" value="1" />
+        <val key="DialogBody.padding" value="10,5,10,10" />
+        <val key="DialogContentPane.align" value="4" />
+        <val key="DialogContentPane.padding" value="5,5,10,10" />
+        <val key="DialogTitle.derive" value="TitleArea" />
+        <val key="ElectionButton.derive" value="IncidentButton" />
+        <val key="ElectionButton.fgColor" value="1bb679" />
+        <val key="ElectionButton.press#derive" value="ElectionButton" />
+        <font key="ElectionButton.press#font" type="system" face="0" style="1" size="0" />
+        <val key="ElectionButton.sel#derive" value="ElectionButton" />
+        <font key="ElectionButton.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="FooterLabel.bgImage" value="rev-background.fw.png" />
+        <val key="FooterLabel.bgType" value="1" />
+        <border key="FooterLabel.border" type="imageH" i1="rev-footer.fw.png" i2="rev-footer.fw.png" i3="rev-footer.fw.png" />
+        <val key="FooterLabel.margin" value="0,0,35,35" />
+        <val key="FooterLabel.padding" value="0,0,0,0" />
+        <val key="Form.bgImage" value="rev-background.fw.png" />
+        <val key="Form.bgType" value="1" />
+        <val key="GreenLabel.align" value="4" />
+        <val key="GreenLabel.bgImage" value="background.fw.png" />
+        <val key="GreenLabel.bgType" value="1" />
+        <val key="GreenLabel.fgColor" value="7fd820" />
+        <val key="IncidentButton.align" value="4" />
+        <val key="IncidentButton.bgImage" value="rev-background.fw.png" />
+        <val key="IncidentButton.bgType" value="1" />
+        <val key="IncidentButton.fgColor" value="FF6e61" />
+        <font key="IncidentButton.font" type="system" face="0" style="0" size="0" />
+        <val key="IncidentButton.margin" value="10,20,7,13" />
+        <val key="IncidentButton.press#derive" value="IncidentButton" />
+        <font key="IncidentButton.press#font" type="system" face="0" style="1" size="0" />
+        <val key="IncidentButton.sel#derive" value="IncidentButton" />
+        <font key="IncidentButton.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="InfiniteProgress.transparency" value="0" />
+        <val key="InfoButton.derive" value="IncidentButton" />
+        <val key="InfoButton.fgColor" value="a38def" />
+        <val key="InfoButton.press#derive" value="InfoButton" />
+        <font key="InfoButton.press#font" type="system" face="0" style="1" size="0" />
+        <val key="InfoButton.sel#derive" value="InfoButton" />
+        <font key="InfoButton.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="LMarginButton.align" value="4" />
+        <border key="LMarginButton.border" type="image" i1="Button.borderTop_1.png" i2="Button.borderBottom_1.png" i3="Button.borderLeft_1.png" i4="Button.borderRight_1.png" i5="Button.borderTopL_1.png" i6="Button.borderTopR_1.png" i7="Button.borderBottomL_1.png" i8="Button.borderBottomR_1.png" i9="Button.borderCenter_1.png" />
+        <val key="LMarginButton.fgColor" value="ffffff" />
+        <font key="LMarginButton.font" type="system" face="0" style="1" size="0" />
+        <val key="LMarginButton.margin" value="10,20,5,0" />
+        <border key="LMarginButton.press#border" type="image" i1="Button.sel#borderTop_1.png" i2="Button.sel#borderBottom_1.png" i3="Button.sel#borderLeft_1.png" i4="Button.sel#borderRight_1.png" i5="Button.sel#borderTopL_1.png" i6="Button.sel#borderTopR_1.png" i7="Button.sel#borderBottomL_1.png" i8="Button.sel#borderBottomR_1.png" i9="Button.sel#borderCenter_1.png" />
+        <val key="LMarginButton.press#derive" value="LMarginButton" />
+        <border key="LMarginButton.sel#border" type="image" i1="Button.sel#borderTop_1.png" i2="Button.sel#borderBottom_1.png" i3="Button.sel#borderLeft_1.png" i4="Button.sel#borderRight_1.png" i5="Button.sel#borderTopL_1.png" i6="Button.sel#borderTopR_1.png" i7="Button.sel#borderBottomL_1.png" i8="Button.sel#borderBottomR_1.png" i9="Button.sel#borderCenter_1.png" />
+        <val key="LMarginButton.sel#derive" value="LMarginButton" />
+        <val key="Label.bgImage" value="rev-background.fw.png" />
+        <val key="Label.bgType" value="1" />
+        <val key="Label.margin" value="5,5,0,0" />
+        <val key="Label.padding" value="5,5,2,2" />
+        <val key="ListRenderer.derive" value="TextField" />
+        <val key="ListRenderer.margin" value="0,0,0,0" />
+        <val key="ListRenderer.padding" value="0,0,5,5" />
+        <val key="ListRenderer.sel#derive" value="ListRenderer" />
+        <val key="ListRenderer.sel#fgColor" value="ffffff" />
+        <val key="ListRendererFocus.sel#bgImage" value="Button.borderBottom_1.png" />
+        <val key="ListRendererFocus.sel#bgType" value="1" />
+        <val key="MonitorButton.derive" value="IncidentButton" />
+        <val key="MonitorButton.fgColor" value="4c6fb2" />
+        <val key="MonitorButton.press#derive" value="MonitorButton" />
+        <font key="MonitorButton.press#font" type="system" face="0" style="1" size="0" />
+        <val key="MonitorButton.sel#derive" value="MonitorButton" />
+        <font key="MonitorButton.sel#font" type="system" face="0" style="1" size="0" />
+        <font key="MultiLine1.font" type="system" face="0" style="1" size="16" />
+        <val key="MultiLine1.padding" value="5,5,5,5" />
+        <val key="MultiLine1.press#derive" value="MultiLine1" />
+        <val key="MultiLine1.sel#derive" value="MultiLine1" />
+        <val key="MultiLine1.transparency" value="0" />
+        <val key="MultiLine2.fgColor" value="d8d8d8" />
+        <font key="MultiLine2.font" type="system" face="0" style="1" size="8" />
+        <val key="MultiLine2.margin" value="5,5,0,0" />
+        <val key="MultiLine2.padding" value="0,0,5,5" />
+        <val key="MultiLine2.press#derive" value="MultiLine2" />
+        <val key="MultiLine2.sel#derive" value="MultiLine2" />
+        <val key="MultiLine2.transparency" value="0" />
+        <val key="NoBorderLabel.bgColor" value="f9f9f9" />
+        <val key="NoBorderLabel.bgImage" value="rev-background.fw.png" />
+        <val key="NoBorderLabel.bgType" value="1" />
+        <border key="NoBorderLabel.border" type="line" thickness="1" color="16382457" />
+        <val key="NoPadContainer.padding" value="0,0,0,0" />
+        <val key="NoSpacelabel.margin" value="0,0,0,0" />
+        <val key="NoSpacelabel.padding" value="0,0,0,0" />
+        <val key="NoStyleButton.align" value="4" />
+        <val key="NoStyleButton.bgImage" value="rev-background.fw.png" />
+        <val key="NoStyleButton.bgType" value="1" />
+        <border key="NoStyleButton.border" type="empty" />
+        <val key="NoStyleButton.dis#derive" value="NoStyleButton" />
+        <val key="NoStyleButton.dis#fgColor" value="ffffff" />
+        <font key="NoStyleButton.font" type="system" face="0" style="0" size="16" />
+        <val key="NoStyleButton.margin" value="0,0,0,0" />
+        <val key="NoStyleButton.padding" value="0,0,0,0" />
+        <val key="NoStyleButton.press#derive" value="NoStyleButton" />
+        <font key="NoStyleButton.press#font" type="system" face="0" style="1" size="16" />
+        <val key="NoStyleButton.sel#derive" value="NoStyleButton" />
+        <font key="NoStyleButton.sel#font" type="system" face="0" style="1" size="16" />
+        <val key="NoTitleContainer.bgImage" value="rev-background.fw.png" />
+        <val key="NoTitleContainer.bgType" value="1" />
+        <val key="NoTitleContainer.margin" value="50,0,0,0" />
+        <val key="NoTitleContainer.padding" value="0,0,25,25" />
+        <border key="PUCTextField.border" type="image" i1="TextField.borderTop_1.png" i2="TextField.borderBottom_1.png" i3="TextField.borderLeft_1.png" i4="TextField.borderRight_1.png" i5="TextField.borderTopL_1.png" i6="TextField.borderTopR_1.png" i7="TextField.borderBottomL_1.png" i8="TextField.borderBottomR_1.png" i9="TextField.borderCenter_1.png" />
+        <val key="PUCTextField.derive" value="TextField" />
+        <val key="PUCTextField.margin" value="5,5,0,0" />
+        <val key="PUCTextField.padding" value="2,2,2,2" />
+        <border key="PUCTextField.sel#border" type="image" i1="PUCTextField.sel#borderTop_1.png" i2="PUCTextField.sel#borderBottom_1.png" i3="PUCTextField.sel#borderLeft_1.png" i4="PUCTextField.sel#borderRight_1.png" i5="PUCTextField.sel#borderTopL_1.png" i6="PUCTextField.sel#borderTopR_1.png" i7="PUCTextField.sel#borderBottomL_1.png" i8="PUCTextField.sel#borderBottomR_1.png" i9="PUCTextField.sel#borderCenter_1.png" />
+        <val key="PUCTextField.sel#derive" value="TextField" />
+        <val key="PUCTextField.sel#margin" value="5,5,0,0" />
+        <val key="PUCTextField.sel#padding" value="2,2,2,2" />
+        <val key="PaddedContainer.bgImage" value="background.fw.png" />
+        <val key="PaddedContainer.bgType" value="1" />
+        <val key="PaddedContainer.padding" value="0,0,15,15" />
+        <border key="PopupContentPane.border" type="line" thickness="2" color="14211288" />
+        <val key="PopupContentPane.padding" value="0,0,0,0" />
+        <val key="PopupFocus.sel#bgImage" value="Button.borderBottom_1.png" />
+        <val key="PopupFocus.sel#bgType" value="1" />
+        <val key="PopupFocus.sel#fgColor" value="ffffff" />
+        <val key="PopupFocus.sel#margin" value="0,0,0,0" />
+        <val key="PopupItem.sel#fgColor" value="ffffff" />
+        <val key="PopupItem.sel#padding" value="5,5,0,0" />
+        <val key="RMarginButton.align" value="4" />
+        <border key="RMarginButton.border" type="image" i1="Button.borderTop_1.png" i2="Button.borderBottom_1.png" i3="Button.borderLeft_1.png" i4="Button.borderRight_1.png" i5="Button.borderTopL_1.png" i6="Button.borderTopR_1.png" i7="Button.borderBottomL_1.png" i8="Button.borderBottomR_1.png" i9="Button.borderCenter_1.png" />
+        <val key="RMarginButton.fgColor" value="ffffff" />
+        <font key="RMarginButton.font" type="system" face="0" style="1" size="0" />
+        <val key="RMarginButton.margin" value="10,20,0,5" />
+        <border key="RMarginButton.press#border" type="image" i1="Button.sel#borderTop_1.png" i2="Button.sel#borderBottom_1.png" i3="Button.sel#borderLeft_1.png" i4="Button.sel#borderRight_1.png" i5="Button.sel#borderTopL_1.png" i6="Button.sel#borderTopR_1.png" i7="Button.sel#borderBottomL_1.png" i8="Button.sel#borderBottomR_1.png" i9="Button.sel#borderCenter_1.png" />
+        <val key="RMarginButton.press#derive" value="RMarginButton" />
+        <border key="RMarginButton.sel#border" type="image" i1="Button.sel#borderTop_1.png" i2="Button.sel#borderBottom_1.png" i3="Button.sel#borderLeft_1.png" i4="Button.sel#borderRight_1.png" i5="Button.sel#borderTopL_1.png" i6="Button.sel#borderTopR_1.png" i7="Button.sel#borderBottomL_1.png" i8="Button.sel#borderBottomR_1.png" i9="Button.sel#borderCenter_1.png" />
+        <val key="RMarginButton.sel#derive" value="RMarginButton" />
+        <val key="RevodaContainer.bgImage" value="rev-background.fw.png" />
+        <val key="RevodaContainer.bgType" value="1" />
+        <val key="RevodaContainer.padding" value="0,0,25,25" />
+        <val key="SloganContainer.align" value="4" />
+        <val key="SloganContainer.bgImage" value="rev-background.fw.png" />
+        <val key="SloganContainer.bgType" value="1" />
+        <font key="SloganContainer.font" type="system" face="0" style="0" size="16" />
+        <val key="SloganContainer.margin" value="5,5,25,25" />
+        <val key="SmallLabel.bgImage" value="rev-background.fw.png" />
+        <val key="SmallLabel.bgType" value="1" />
+        <font key="SmallLabel.font" type="system" face="0" style="0" size="8" />
+        <val key="SmallLabel.margin" value="2,20,0,0" />
+        <val key="SmallLabel.padding" value="2,2,2,2" />
+        <val key="SmallerButton.derive" value="Button" />
+        <val key="SmallerButton.margin" value="5,5,12,12" />
+        <val key="SmallerButton.press#derive" value="Button" />
+        <font key="SmallerButton.press#font" type="system" face="0" style="1" size="0" />
+        <val key="SmallerButton.press#margin" value="5,5,12,12" />
+        <val key="SmallerButton.sel#derive" value="Button" />
+        <font key="SmallerButton.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="SmallerButton.sel#margin" value="5,5,12,12" />
+        <border key="TextField.border" type="image" i1="TextField.borderTop_2.png" i2="TextField.borderBottom_2.png" i3="TextField.borderLeft_2.png" i4="TextField.borderRight_2.png" i5="TextField.borderTopL_2.png" i6="TextField.borderTopR_2.png" i7="TextField.borderBottomL_2.png" i8="TextField.borderBottomR_2.png" i9="TextField.borderCenter_2.png" />
+        <val key="TextField.margin" value="10,20,0,0" />
+        <val key="TextField.padding" value="2,2,2,2" />
+        <border key="TextField.sel#border" type="image" i1="TextField.sel#borderTop_3.png" i2="TextField.sel#borderBottom_3.png" i3="TextField.sel#borderLeft_3.png" i4="TextField.sel#borderRight_3.png" i5="TextField.sel#borderTopL_3.png" i6="TextField.sel#borderTopR_3.png" i7="TextField.sel#borderBottomL_3.png" i8="TextField.sel#borderBottomR_3.png" i9="TextField.sel#borderCenter_3.png" />
+        <val key="TextField.sel#derive" value="TextField" />
+        <val key="TextFieldMB.derive" value="TextField" />
+        <val key="TextFieldMB.dis#derive" value="TextField" />
+        <val key="TextFieldMB.dis#margin" value="0,0,0,0" />
+        <val key="TextFieldMB.dis#padding" value="10,10,0,0" />
+        <val key="TextFieldMB.margin" value="0,0,0,0" />
+        <val key="TextFieldMB.padding" value="10,10,0,0" />
+        <val key="TextFieldMB.press#derive" value="TextField.sel" />
+        <val key="TextFieldMB.press#margin" value="0,0,0,0" />
+        <val key="TextFieldMB.press#padding" value="12,12,0,0" />
+        <val key="TextFieldMB.sel#derive" value="TextField.sel" />
+        <val key="TextFieldMB.sel#margin" value="0,0,0,0" />
+        <val key="TextFieldMB.sel#padding" value="12,12,0,0" />
+        <border key="TitleArea.border" type="image" i1="Button.borderTop_1.png" i2="Button.borderBottom_1.png" i3="Button.borderLeft_1.png" i4="Button.borderRight_1.png" i5="Button.borderTopL_1.png" i6="Button.borderTopR_1.png" i7="Button.borderBottomL_1.png" i8="Button.borderBottomR_1.png" i9="Button.borderCenter_1.png" />
+        <val key="TitleArea.padding" value="0,0,0,0" />
+        <val key="TitleBarButton.derive" value="Button" />
+        <val key="TitleBarButton.margin" value="2,2,12,12" />
+        <val key="TitleBarButton.press#derive" value="Button" />
+        <font key="TitleBarButton.press#font" type="system" face="0" style="1" size="0" />
+        <val key="TitleBarButton.press#margin" value="2,2,12,12" />
+        <val key="TitleBarButton.sel#derive" value="Button" />
+        <font key="TitleBarButton.sel#font" type="system" face="0" style="1" size="0" />
+        <val key="TitleBarButton.sel#margin" value="2,2,12,12" />
+        <val key="TitleLabel.align" value="4" />
+        <val key="TitleLabel.fgColor" value="ffffff" />
+        <font key="TitleLabel.font" type="system" face="0" style="1" size="0" />
+        <val key="TitleLabel.transparency" value="0" />
+        <val key="TransparentDialog.derive" value="Dialog" />
+        <val key="TransparentDialog.transparency" value="0" />
+        <val key="TransparentTitle.transparency" value="0" />
+        <val key="h1Label.align" value="4" />
+        <val key="h1Label.bgImage" value="rev-background.fw.png" />
+        <val key="h1Label.bgType" value="1" />
+        <font key="h1Label.font" type="system" face="0" style="1" size="16" />
+        <val key="h1Label.padding" value="0,25,0,0" />
+    </theme>
+    <image name="TitleArea.borderCenter_2.png" type="multi"  />
+</resource>

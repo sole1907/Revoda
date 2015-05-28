@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="RevodaContainer" scrollVisible="true" scrollableX="true" scrollableY="true" layout="TableLayout" tableLayoutRows="3" tableLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <component type="Button" name="Button4" cloudDestinationProperty="Button4" commandName="Incident Report" commandIcon="noun_4270@2x.png 1" commandId="14" commandAction="Incidents" commandBack="false" uiid="IncidentButton" text="Incident Report" icon="noun_4270@2x.png 1" gap="15" textPosition="2" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="50" align="4" spanHorizontal="1" valign="2" spanVertical="1" />
+    </component>
+    <component type="Button" name="Button41" cloudDestinationProperty="Button4" commandName="Election Results" commandIcon="noun_25089_cc@2x.png 1" commandId="15" commandAction="ElectionResults" commandBack="false" uiid="ElectionButton" text="Election Results" icon="noun_25089_cc@2x.png 1" gap="15" textPosition="2" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="50" align="4" spanHorizontal="1" valign="2" spanVertical="1" />
+    </component>
+    <component type="Button" name="Button42" cloudDestinationProperty="Button4" commandName="Election Monitoring" commandIcon="noun_81482_cc@2x.png 1" commandId="16" commandAction="ElectionMonitoring" commandBack="false" uiid="MonitorButton" text="Election Monitoring" icon="noun_81482_cc@2x.png 1" gap="15" textPosition="2" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="4" spanHorizontal="1" valign="2" spanVertical="1" />
+    </component>
+    <component type="Button" name="Button43" cloudDestinationProperty="Button4" commandName="Info Center" commandIcon="Calque_3 2@2x.png 1" commandId="17" commandAction="Info" commandBack="false" uiid="InfoButton" text="Info Center" icon="Calque_3 2@2x.png 1" gap="15" textPosition="2" >
+      <layoutConstraint row="-1" column="-1" height="-1" width="-1" align="4" spanHorizontal="1" valign="2" spanVertical="1" />
+      <custom name="maskName" type="java.lang.String" value="" />
+    </component>
+  </component>
+  <component type="Container" name="Container4" cloudDestinationProperty="Container4" uiid="TitleArea" layout="FlowLayout" flowLayoutFillRows="true" flowLayoutAlign="1" flowLayoutValign="4" >
+    <layoutConstraint value="North" />
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" uiid="TitleLabel" text="Home" verticalAlignment="4" textPosition="1" >
+    </component>
+  </component>
+</component>
